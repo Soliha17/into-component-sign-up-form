@@ -22,6 +22,20 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
+.alert_container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.success {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
 
 .page_container {
   box-sizing: border-box;
