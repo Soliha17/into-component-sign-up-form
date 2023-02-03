@@ -9,7 +9,6 @@ var password = document.getElementById("password");
 var formError = document.getElementsByClassName("form_error");
 var input = document.getElementsByTagName("input");
 
-
 /* validation*/
 function formValidation(event) {
   /*for loop for all input fields except submit input, so it is 4*/
